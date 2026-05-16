@@ -2,7 +2,7 @@
 
 - Project: Customer Lifecycle Ops Monitor
 - GitHub: https://github.com/Saurav-Kanegaonkar/Customer-Lifecycle-Ops-Monitor
-- Status: artifact ready
+- Status: pushed
 - Resume Link Ready: Yes
 
 ## What Exists

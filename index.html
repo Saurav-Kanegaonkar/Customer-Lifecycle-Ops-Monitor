@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Lifecycle Ops Monitor</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Customer Operations</p>
+        <h1>Customer Lifecycle Ops Monitor</h1>
+        <p>Customer-facing teams need trusted visibility into onboarding, adoption, retention, expansion, and revenue outcomes without conflicting definitions across RevOps and Finance.</p>
+      </div>
+      <div class="hero-card">
+        <span>Decision risk</span>
+        <strong>82%</strong>
+        <small>+9 pp</small>
+      </div>
+    </header>
+    <section>
+      <span class="output-tag">Output 1 · Executive pulse</span>
+      <div class="metric-grid" id="metrics"></div>
+    </section>
+    <section class="grid">
+      <article class="panel wide">
+        <p class="eyebrow">Diagnostic table</p>
+        <span class="output-tag">Output 2 · Operating queue</span>
+        <h2>Where the team should focus next</h2>
+        <div id="table"></div>
+      </article>
+      <article class="panel">
+        <p class="eyebrow">What the data says</p>
+        <span class="output-tag">Output 3 · Analytical readout</span>
+        <h2>Signals behind the recommendation</h2>
+        <div id="signals"></div>
+      </article>
+    </section>
+    <section class="panel">
+      <p class="eyebrow">Recommendation memo</p>
+      <span class="output-tag">Output 4 · Next actions</span>
+      <h2>Recommended moves</h2>
+      <div id="recs" class="memo-grid"></div>
+    </section>
+  </main>
+  <script src="src/data.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

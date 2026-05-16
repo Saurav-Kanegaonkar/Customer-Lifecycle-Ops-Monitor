@@ -1,0 +1,5 @@
+signal,segment,status,finding,risk
+"Onboarding","BigQuery","CS Ops","Medium","High"
+"Adoption","Product","RevOps","Low","Medium"
+"Retention","Finance","CS Ops","Medium","High"
+"Expansion","CRM","Sales Ops","High","Medium"

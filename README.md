@@ -1,52 +1,33 @@
 # Customer Lifecycle Ops Monitor
 
-I built this because customer operations analytics needs to reduce reporting noise while preserving metric trust. The project models how RevOps, customer operations, finance, and data engineering can align on lifecycle metrics, dashboard certification, and customer-facing operating signals.
+I built this because customer lifecycle operations needs an artifact that connects source data, analysis, and recommendations, not just a polished dashboard screenshot.
 
-![Customer Lifecycle Ops Monitor dashboard](docs/images/dashboard.png)
+![Customer Lifecycle Ops Monitor](docs/images/dashboard.png)
 
-## Why this exists
+## What this project is
 
-Customer-facing teams need trusted visibility into onboarding, adoption, retention, expansion, and revenue outcomes without conflicting definitions across RevOps and Finance.
+This is a ops artifact for customer lifecycle operations. It uses synthetic but workflow-shaped data to rank account-level risks and convert the output into stakeholder-ready recommendations.
 
-## What is in the project
+## Data sources
 
-- A polished dashboard in `index.html`
-- Modular UI/data files in `src/`
-- Synthetic operating data in `data/synthetic_operating_data.csv`
-- A screenshot captured from the rendered app in `docs/images/dashboard.png`
+- `entities.csv` - 32 account records
+- `daily_metrics.csv` - 3,840 daily operating rows
+- `source_events.csv` - 650 event and exception records
+- `recommended_actions.csv` - 180 action candidates
 
-## Dashboard sections
+## Analysis outputs
 
-- Lifecycle pulse: onboarding cycle time, adoption rate, retention risk, and expansion pipeline.
-- Metric certification table: owner, system source, definition quality, and reporting risk.
-- Operations memo: dashboard cleanup, BigQuery model checks, and lifecycle intervention priorities.
+- `analysis/executive_findings.md`
+- `analysis/analysis_plan.md`
+- `analysis/sql_checks.sql`
+- `analysis/outputs/priority_queue.csv`
 
-## What the data says
+## Recommendation
 
-The synthetic data shows that onboarding delays are the strongest leading indicator of retention risk.
-
-Expansion opportunity is concentrated in accounts with healthy adoption but incomplete customer-success documentation.
-
-The best next move is to certify lifecycle definitions before scaling self-serve dashboards to customer-facing teams.
-
-## Output walkthrough
-
-### Output 1: Executive pulse
-
-The KPI cards summarize the current operating picture and highlight whether the team should trust, investigate, or act on the latest metrics.
-
-### Output 2: Diagnostic table
-
-The table converts raw operating signals into a ranked queue of risks, owners, and recommended next actions.
-
-### Output 3: Analytical recommendations
-
-The memo turns the analysis into specific business actions that can be discussed in a weekly review or stakeholder workshop.
+Use the priority queue to focus stakeholder attention on the account segments where performance upside, measurement risk, and operational readiness overlap.
 
 ## Run locally
 
 ```bash
 python3 -m http.server 4173
 ```
-
-Then open `http://localhost:4173`.

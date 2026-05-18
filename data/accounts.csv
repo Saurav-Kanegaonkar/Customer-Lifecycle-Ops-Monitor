@@ -1,0 +1,49 @@
+account_id,account_name,industry,region,plan_tier,lifecycle_stage,csm_owner,arr,onboarding_age_days,days_to_renewal,adoption_score,retention_risk,expansion_signal,metric_confidence,support_ticket_burden
+ACC001,Account 001,HVAC,North America,Scale,Onboarding,CS Ops,294000,19,294,48.2,62.7,67.4,80.1,12
+ACC002,Account 002,HVAC,United Kingdom,Starter,Adoption,Sales Ops,20000,195,244,48.4,48.0,26.8,75.3,5
+ACC003,Account 003,Fire Protection,North America,Growth,Onboarding,Sales Ops,99000,13,150,57.4,39.2,53.6,78.5,4
+ACC004,Account 004,HVAC,New Zealand,Starter,Adoption,Customer Success,42000,65,163,49.4,57.4,40.0,66.2,9
+ACC005,Account 005,Fire Protection,United Kingdom,Growth,Expansion,RevOps,76000,200,51,75.4,63.5,76.0,87.1,5
+ACC006,Account 006,Plumbing,New Zealand,Growth,Adoption,Customer Success,139000,103,43,62.8,66.7,67.2,67.3,3
+ACC007,Account 007,Multi-Trade,Australia,Starter,Expansion,Sales Ops,39000,112,88,84.3,42.6,48.2,99.2,11
+ACC008,Account 008,Multi-Trade,New Zealand,Enterprise,Adoption,CS Ops,545000,84,71,72.5,23.8,93.2,75.1,0
+ACC009,Account 009,Plumbing,Australia,Growth,Renewal,CS Ops,116000,219,73,40.6,56.2,38.5,75.7,7
+ACC010,Account 010,Multi-Trade,Australia,Growth,Onboarding,RevOps,55000,72,106,71.5,39.8,61.8,66.5,6
+ACC011,Account 011,Plumbing,Australia,Starter,Renewal,RevOps,53000,49,265,98.0,39.7,59.4,85.2,11
+ACC012,Account 012,Fire Protection,United Kingdom,Starter,Expansion,Customer Success,23000,77,79,92.9,44.5,66.5,87.5,13
+ACC013,Account 013,Security,New Zealand,Growth,Renewal,CS Ops,83000,216,219,90.2,26.6,50.4,77.1,4
+ACC014,Account 014,HVAC,Australia,Growth,Onboarding,CS Ops,58000,37,45,40.6,86.0,38.2,80.0,7
+ACC015,Account 015,Security,United Kingdom,Growth,Adoption,CS Ops,119000,107,257,67.4,51.5,49.7,77.2,11
+ACC016,Account 016,Plumbing,North America,Starter,Adoption,RevOps,46000,60,65,45.7,62.9,40.9,86.8,12
+ACC017,Account 017,Multi-Trade,North America,Starter,Adoption,CS Ops,27000,185,241,57.4,46.8,61.7,85.7,7
+ACC018,Account 018,Security,Australia,Enterprise,Expansion,Sales Ops,517000,142,99,69.6,52.7,74.1,97.1,12
+ACC019,Account 019,HVAC,Australia,Growth,Renewal,CS Ops,128000,193,44,64.7,78.4,59.5,73.8,8
+ACC020,Account 020,Electrical,New Zealand,Starter,Adoption,CS Ops,53000,62,319,82.8,37.5,59.9,87.5,9
+ACC021,Account 021,Electrical,Australia,Enterprise,Renewal,RevOps,734000,125,282,58.2,36.7,100,72.7,2
+ACC022,Account 022,HVAC,North America,Growth,Onboarding,RevOps,140000,87,249,44.8,51.7,40.3,76.7,7
+ACC023,Account 023,Multi-Trade,North America,Growth,Onboarding,Customer Success,101000,46,293,66.1,41.4,56.0,64.2,5
+ACC024,Account 024,Multi-Trade,Australia,Enterprise,Onboarding,RevOps,890000,44,154,52.0,56.5,100,78.5,10
+ACC025,Account 025,Plumbing,United Kingdom,Scale,Expansion,Customer Success,415000,115,231,55.0,48.3,69.0,92.6,7
+ACC026,Account 026,Plumbing,United Kingdom,Starter,Adoption,Sales Ops,46000,184,91,60.6,58.4,39.9,82.0,12
+ACC027,Account 027,Multi-Trade,United Kingdom,Starter,Adoption,RevOps,21000,149,301,72.6,41.3,53.2,67.1,7
+ACC028,Account 028,Electrical,Australia,Scale,Expansion,RevOps,243000,216,225,83.0,33.6,65.0,78.7,6
+ACC029,Account 029,Multi-Trade,United Kingdom,Scale,Onboarding,Sales Ops,170000,37,171,53.4,52.8,41.9,76.5,8
+ACC030,Account 030,Plumbing,United Kingdom,Growth,Expansion,Customer Success,92000,52,184,72.5,29.1,39.2,98.1,3
+ACC031,Account 031,HVAC,New Zealand,Starter,Renewal,CS Ops,41000,192,212,70.6,33.5,42.9,82.5,3
+ACC032,Account 032,Multi-Trade,Australia,Growth,Renewal,Customer Success,143000,214,175,76.2,56.2,54.6,88.2,15
+ACC033,Account 033,Security,North America,Scale,Adoption,Customer Success,305000,202,104,58.6,42.6,57.5,74.3,5
+ACC034,Account 034,Multi-Trade,United Kingdom,Growth,Adoption,CS Ops,131000,166,276,57.7,34.0,54.9,68.5,1
+ACC035,Account 035,HVAC,United Kingdom,Growth,Renewal,Sales Ops,136000,95,130,60.7,43.0,38.7,100,7
+ACC036,Account 036,Multi-Trade,North America,Scale,Renewal,CS Ops,389000,147,268,57.5,50.9,84.5,94.4,9
+ACC037,Account 037,Fire Protection,Australia,Scale,Adoption,Sales Ops,394000,215,252,74.6,43.9,73.0,78.4,9
+ACC038,Account 038,Electrical,Australia,Scale,Renewal,Sales Ops,415000,160,258,48.6,42.5,70.6,96.1,4
+ACC039,Account 039,Security,United Kingdom,Scale,Adoption,RevOps,191000,80,56,64.0,63.8,74.8,76.2,2
+ACC040,Account 040,Fire Protection,New Zealand,Starter,Adoption,Sales Ops,54000,50,314,61.8,47.7,38.1,72.6,8
+ACC041,Account 041,Security,United Kingdom,Starter,Adoption,Customer Success,44000,199,294,84.0,24.7,64.3,55.7,1
+ACC042,Account 042,Security,North America,Growth,Onboarding,CS Ops,99000,87,80,37.5,54.9,19.5,64.0,5
+ACC043,Account 043,Security,Australia,Scale,Onboarding,CS Ops,392000,56,187,51.9,41.5,77.4,85.8,4
+ACC044,Account 044,Electrical,North America,Growth,Renewal,RevOps,62000,52,35,83.1,53.7,45.4,78.7,2
+ACC045,Account 045,Multi-Trade,North America,Growth,Adoption,RevOps,70000,200,100,58.3,40.4,30.7,73.3,4
+ACC046,Account 046,Multi-Trade,United Kingdom,Enterprise,Onboarding,CS Ops,443000,17,116,62.2,53.6,73.7,71.2,10
+ACC047,Account 047,Plumbing,North America,Scale,Adoption,Sales Ops,213000,62,204,70.4,53.5,66.6,67.0,11
+ACC048,Account 048,Fire Protection,New Zealand,Scale,Onboarding,Sales Ops,340000,91,282,33.2,56.6,45.0,68.9,5

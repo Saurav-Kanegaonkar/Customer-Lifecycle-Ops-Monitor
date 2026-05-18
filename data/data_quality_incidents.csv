@@ -1,0 +1,37 @@
+incident_id,source_system,affected_metric,issue_type,severity,open_days,owner,status,recommended_fix
+DQI001,CRM,support_to_health_ratio,billing join gap,Medium,13,Data Engineering,Open,Map orphan account IDs before dashboard refresh
+DQI002,Semantic Model,adoption_depth_score,missing CRM owner,Medium,8,Data Engineering,Resolved,Map orphan account IDs before dashboard refresh
+DQI003,Support,expansion_readiness,duplicate account key,Low,14,RevOps,Monitoring,Map orphan account IDs before dashboard refresh
+DQI004,CRM,expansion_readiness,support mapping mismatch,Low,23,Data Engineering,Monitoring,Add freshness alert to semantic model job
+DQI005,Product Events,support_to_health_ratio,support mapping mismatch,Low,13,Finance,Open,Align CRM stage logic with finance renewal bridge
+DQI006,Product Events,adoption_depth_score,support mapping mismatch,High,20,Finance,Open,Map orphan account IDs before dashboard refresh
+DQI007,CRM,expansion_readiness,missing CRM owner,High,22,Data Engineering,Open,Backfill product events for certification window
+DQI008,CRM,time_to_first_value,support mapping mismatch,High,6,Finance,Open,Map orphan account IDs before dashboard refresh
+DQI009,Billing,expansion_readiness,support mapping mismatch,Medium,19,RevOps,Resolved,Map orphan account IDs before dashboard refresh
+DQI010,Semantic Model,expansion_readiness,late product event,Low,7,Data Engineering,Monitoring,Align CRM stage logic with finance renewal bridge
+DQI011,Product Events,dashboard_certification_flag,late product event,High,19,Finance,Resolved,Align CRM stage logic with finance renewal bridge
+DQI012,Support,support_to_health_ratio,support mapping mismatch,Medium,3,Data Engineering,Open,Map orphan account IDs before dashboard refresh
+DQI013,Product Events,adoption_depth_score,billing join gap,Low,15,Finance,Open,Map orphan account IDs before dashboard refresh
+DQI014,Product Events,onboarding_activation_rate,duplicate account key,Medium,19,RevOps,Monitoring,Map orphan account IDs before dashboard refresh
+DQI015,Support,support_to_health_ratio,support mapping mismatch,Medium,3,Data Engineering,Open,Add freshness alert to semantic model job
+DQI016,Billing,dashboard_certification_flag,billing join gap,Low,9,RevOps,Monitoring,Align CRM stage logic with finance renewal bridge
+DQI017,CRM,adoption_depth_score,support mapping mismatch,Medium,20,Customer Ops,Monitoring,Map orphan account IDs before dashboard refresh
+DQI018,Billing,support_to_health_ratio,billing join gap,Medium,19,Finance,Monitoring,Align CRM stage logic with finance renewal bridge
+DQI019,Support,renewal_risk_score,duplicate account key,Medium,1,Data Engineering,Open,Backfill product events for certification window
+DQI020,Billing,adoption_depth_score,late product event,High,17,Customer Ops,Monitoring,Backfill product events for certification window
+DQI021,Product Events,gross_retention_bridge,duplicate account key,Medium,4,Finance,Open,Add freshness alert to semantic model job
+DQI022,Product Events,renewal_risk_score,late product event,Low,2,Finance,Resolved,Add freshness alert to semantic model job
+DQI023,Product Events,expansion_readiness,late product event,Low,10,Customer Ops,Resolved,Map orphan account IDs before dashboard refresh
+DQI024,Support,gross_retention_bridge,late product event,Low,2,Finance,Open,Map orphan account IDs before dashboard refresh
+DQI025,Support,gross_retention_bridge,missing CRM owner,High,5,Finance,Resolved,Align CRM stage logic with finance renewal bridge
+DQI026,Support,time_to_first_value,missing CRM owner,High,12,Data Engineering,Open,Add freshness alert to semantic model job
+DQI027,Billing,onboarding_activation_rate,missing CRM owner,High,9,Finance,Open,Align CRM stage logic with finance renewal bridge
+DQI028,CRM,gross_retention_bridge,missing CRM owner,Medium,19,Finance,Open,Align CRM stage logic with finance renewal bridge
+DQI029,Product Events,time_to_first_value,duplicate account key,Low,2,Customer Ops,Resolved,Map orphan account IDs before dashboard refresh
+DQI030,Billing,time_to_first_value,missing CRM owner,High,12,Finance,Monitoring,Align CRM stage logic with finance renewal bridge
+DQI031,CRM,expansion_readiness,duplicate account key,High,23,Customer Ops,Open,Add freshness alert to semantic model job
+DQI032,CRM,gross_retention_bridge,support mapping mismatch,Medium,14,Finance,Open,Backfill product events for certification window
+DQI033,CRM,expansion_readiness,support mapping mismatch,Medium,4,Customer Ops,Open,Map orphan account IDs before dashboard refresh
+DQI034,Support,gross_retention_bridge,late product event,High,11,Finance,Open,Map orphan account IDs before dashboard refresh
+DQI035,CRM,dashboard_certification_flag,billing join gap,Medium,2,Data Engineering,Open,Align CRM stage logic with finance renewal bridge
+DQI036,Billing,support_to_health_ratio,support mapping mismatch,Medium,20,Customer Ops,Monitoring,Map orphan account IDs before dashboard refresh

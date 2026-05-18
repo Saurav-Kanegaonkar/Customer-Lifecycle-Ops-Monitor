@@ -2,14 +2,15 @@
 
 ## What I analyzed
 
-I joined 3,840 daily metric rows, 650 source events, and 180 action candidates for customer lifecycle operations.
+I modeled a synthetic customer lifecycle operating mart with 48 accounts, 4,320 daily metric rows, 8 governed metric definitions, 36 data quality incidents, and 48 recommended account actions.
 
 ## Findings
 
-- The highest-priority account is ACC001 with a priority score of 90.06.
-- The top queue combines 50.9 average risk with 79.3 quality score and $745,767 estimated impact.
-- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
+- The highest-priority account is ACC024, with a priority score of 73.5.
+- The top 12 action queue represents $2,574,000 in modeled revenue at risk.
+- 62% of core lifecycle metrics are certified, leaving the largest trust gap in finance reconciliation and expansion readiness.
+- 9 high-severity data quality incidents remain open or under monitoring.
 
 ## Recommendation
 
-Prioritize the top queue before scaling more dashboards. The project should help leaders decide which account risks need action, validation, or monitoring.
+Use the action queue for weekly customer operations review, but gate broad self-service rollout on certification of renewal, billing, and expansion definitions.

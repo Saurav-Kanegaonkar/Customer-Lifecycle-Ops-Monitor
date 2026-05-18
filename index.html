@@ -5,48 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Customer Lifecycle Ops Monitor</title>
   <link rel="stylesheet" href="src/styles.css">
-<style>:root{--bg:#eef6ff;--accent:#2563eb;--ink:#111827}</style></head>
+</head>
 <body>
   <main class="shell">
-    <header class="hero">
-      <p>customer lifecycle operations</p>
-      <h1>Customer Lifecycle Ops Monitor</h1>
-      <span>Decision artifact for customer lifecycle operations: source-style data, ranked analysis, and recommendations built around account-level operating signals.</span>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">customer lifecycle operations</p>
+        <h1>Customer Lifecycle Ops Monitor</h1>
+      </div>
+      <p class="brief">A RevOps-ready operating console for lifecycle health, metric certification, and account intervention planning across a field service SaaS portfolio.</p>
     </header>
-    <section class="metrics">
-      <article><small>Source rows</small><strong>4.2K+</strong><em>modeled</em></article>
-      <article><small>Risk queue</small><strong>25</strong><em>ranked</em></article>
-      <article><small>Prep saved</small><strong>6 hrs</strong><em>weekly</em></article>
-      <article><small>Decision lanes</small><strong>3</strong><em>ready</em></article>
+
+    <section class="summary" id="summary" aria-label="Portfolio summary"></section>
+
+    <nav class="tabs" aria-label="Artifact surfaces">
+      <button class="active" type="button" data-surface="health">Lifecycle Health</button>
+      <button type="button" data-surface="certification">Metrics Certification</button>
+      <button type="button" data-surface="queue">Action Queue</button>
+    </nav>
+
+    <section class="surface active" id="surface-health">
+      <div class="surface-grid health-grid">
+        <section class="panel main-panel">
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">operating pulse</p>
+              <h2>Lifecycle stage health</h2>
+            </div>
+            <span>90 day modeled window</span>
+          </div>
+          <div class="stage-list" id="stage-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">segment risk</p>
+              <h2>Where attention clusters</h2>
+            </div>
+          </div>
+          <div class="risk-list" id="segment-risk"></div>
+        </section>
+      </div>
+
+      <section class="panel insight-panel">
+        <div>
+          <p class="eyebrow">executive readout</p>
+          <h2>What the data says</h2>
+        </div>
+        <div id="findings" class="findings"></div>
+      </section>
     </section>
-    <section class="grid">
-      <article class="panel">
-        <p class="kicker">Analytical queue</p>
-        <h2>Highest priority account signals</h2>
-        <table>
-          <thead><tr><th>Signal</th><th>Owner</th><th>Metric</th><th>Action</th></tr></thead>
-          <tbody>
-            <tr><td>Coverage risk</td><td>Ops</td><td>High</td><td>Escalate before review</td></tr>
-            <tr><td>Metric variance</td><td>Analytics</td><td>Watch</td><td>Validate source definition</td></tr>
-            <tr><td>Growth pocket</td><td>Business</td><td>Strong</td><td>Prioritize next sprint</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel memo">
-        <p class="kicker">Executive finding</p>
-        <h2>What the data says</h2>
-        <p>The strongest recommendations appear when performance, operational readiness, and measurement quality overlap.</p>
-        <p>The project turns repeated stakeholder questions into a ranked operating queue instead of another static KPI page.</p>
-      </article>
+
+    <section class="surface" id="surface-certification">
+      <div class="surface-grid certification-grid">
+        <section class="panel main-panel">
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">governance</p>
+              <h2>Metric certification board</h2>
+            </div>
+            <span id="certified-rate"></span>
+          </div>
+          <div class="metric-table" id="metric-table"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">data quality</p>
+              <h2>Open issues</h2>
+            </div>
+            <span id="high-incidents"></span>
+          </div>
+          <div class="incident-list" id="incident-list"></div>
+        </section>
+      </div>
     </section>
-    <section class="panel">
-      <p class="kicker">Recommendations</p>
-      <div class="recs">
-        <article><b>1</b><span>Prioritize high-value segments where risk and opportunity overlap.</span></article>
-        <article><b>2</b><span>Use source checks before scaling the recommendation into recurring reporting.</span></article>
-        <article><b>3</b><span>Convert the ranked queue into a stakeholder-ready operating digest.</span></article>
+
+    <section class="surface" id="surface-queue">
+      <div class="surface-grid queue-grid">
+        <section class="panel queue-panel">
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">weekly review</p>
+              <h2>Prioritized account actions</h2>
+            </div>
+            <span>ranked by risk, value, confidence, and effort</span>
+          </div>
+          <div class="queue-list" id="queue-list"></div>
+        </section>
+
+        <aside class="panel detail-panel" id="action-detail"></aside>
       </div>
     </section>
   </main>
+
+  <script src="src/data.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>

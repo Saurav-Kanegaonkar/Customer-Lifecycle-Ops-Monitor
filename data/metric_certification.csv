@@ -1,0 +1,9 @@
+metric_name,business_owner,source_systems,definition_status,freshness_hours,reconciliation_gap_pct,certified,dashboard_surface
+onboarding_activation_rate,Customer Ops,"CRM, product events",Certified,5,1.8,Yes,Lifecycle Health
+time_to_first_value,Customer Ops,"Implementation tasks, product events",Needs owner signoff,18,4.6,No,Lifecycle Health
+adoption_depth_score,RevOps,"Product events, contract metadata",Certified,7,2.2,Yes,Lifecycle Health
+renewal_risk_score,RevOps,"CRM, support, billing",Certified,9,2.9,Yes,Action Queue
+expansion_readiness,Sales Ops,"Usage, plan, CRM opportunity",Draft,14,5.7,No,Action Queue
+gross_retention_bridge,Finance,"Billing, CRM, product account",Needs reconciliation,28,7.4,No,Metrics Certification
+support_to_health_ratio,Customer Success,"Support tickets, account health",Certified,11,2.5,Yes,Metrics Certification
+dashboard_certification_flag,Data Engineering,"Semantic model, dashboard catalog",Certified,4,1.2,Yes,Metrics Certification

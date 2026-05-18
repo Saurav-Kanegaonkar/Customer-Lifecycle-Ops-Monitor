@@ -1,181 +1,49 @@
-action_id,entity_id,action_type,effort_hours,expected_lift_pct,status
-ACT0001,ACC009,automate,25,4.4,Complete
-ACT0002,ACC029,monitor,18,19.0,Proposed
-ACT0003,ACC024,prioritize,34,3.7,Ready
-ACT0004,ACC006,monitor,28,12.3,Ready
-ACT0005,ACC003,validate,32,17.0,Complete
-ACT0006,ACC029,escalate,23,18.7,Proposed
-ACT0007,ACC021,prioritize,22,13.9,Complete
-ACT0008,ACC020,automate,28,10.9,In Review
-ACT0009,ACC021,monitor,26,7.6,Ready
-ACT0010,ACC003,monitor,42,19.7,Complete
-ACT0011,ACC031,prioritize,28,6.2,In Review
-ACT0012,ACC010,prioritize,20,6.8,Ready
-ACT0013,ACC009,validate,36,18.8,Complete
-ACT0014,ACC018,monitor,12,15.5,Complete
-ACT0015,ACC028,automate,5,3.6,Complete
-ACT0016,ACC020,escalate,31,7.4,Proposed
-ACT0017,ACC003,monitor,8,17.3,Proposed
-ACT0018,ACC014,validate,15,12.7,Ready
-ACT0019,ACC002,prioritize,4,10.0,Proposed
-ACT0020,ACC021,monitor,28,13.4,Complete
-ACT0021,ACC020,validate,44,11.2,Complete
-ACT0022,ACC022,validate,15,22.2,Complete
-ACT0023,ACC024,automate,8,3.3,In Review
-ACT0024,ACC002,validate,5,23.9,Proposed
-ACT0025,ACC029,monitor,39,2.2,Ready
-ACT0026,ACC031,escalate,38,13.0,In Review
-ACT0027,ACC023,validate,39,19.7,In Review
-ACT0028,ACC031,prioritize,29,3.5,Complete
-ACT0029,ACC026,automate,6,6.5,In Review
-ACT0030,ACC002,automate,44,4.7,In Review
-ACT0031,ACC015,validate,22,14.3,Complete
-ACT0032,ACC031,validate,26,22.5,Complete
-ACT0033,ACC012,monitor,22,5.3,Proposed
-ACT0034,ACC028,validate,30,15.8,Ready
-ACT0035,ACC019,automate,20,21.4,In Review
-ACT0036,ACC001,escalate,32,14.3,Proposed
-ACT0037,ACC006,prioritize,16,23.9,Complete
-ACT0038,ACC001,validate,42,10.0,In Review
-ACT0039,ACC013,prioritize,2,4.5,In Review
-ACT0040,ACC014,validate,41,12.8,Proposed
-ACT0041,ACC013,automate,42,16.2,Proposed
-ACT0042,ACC020,validate,27,10.8,In Review
-ACT0043,ACC032,escalate,32,17.6,In Review
-ACT0044,ACC025,prioritize,21,16.0,Proposed
-ACT0045,ACC001,automate,7,3.6,Proposed
-ACT0046,ACC018,escalate,32,9.1,Complete
-ACT0047,ACC014,validate,2,12.6,In Review
-ACT0048,ACC004,automate,10,18.6,Proposed
-ACT0049,ACC018,escalate,28,4.1,In Review
-ACT0050,ACC021,prioritize,23,18.9,Ready
-ACT0051,ACC002,escalate,36,13.9,Complete
-ACT0052,ACC025,monitor,12,10.9,In Review
-ACT0053,ACC022,escalate,28,13.5,Ready
-ACT0054,ACC007,escalate,17,7.3,In Review
-ACT0055,ACC016,escalate,6,5.9,Complete
-ACT0056,ACC031,validate,30,12.1,In Review
-ACT0057,ACC024,escalate,25,23.8,Ready
-ACT0058,ACC003,validate,38,20.5,Proposed
-ACT0059,ACC016,monitor,12,23.3,Complete
-ACT0060,ACC019,prioritize,25,12.9,Proposed
-ACT0061,ACC020,escalate,28,23.6,Ready
-ACT0062,ACC001,monitor,21,21.9,In Review
-ACT0063,ACC002,prioritize,20,20.6,In Review
-ACT0064,ACC009,validate,40,16.0,In Review
-ACT0065,ACC016,validate,21,20.3,In Review
-ACT0066,ACC007,validate,30,17.5,In Review
-ACT0067,ACC031,prioritize,23,22.9,Proposed
-ACT0068,ACC003,monitor,40,17.6,Complete
-ACT0069,ACC028,prioritize,6,16.4,In Review
-ACT0070,ACC002,monitor,19,18.4,Proposed
-ACT0071,ACC023,automate,2,11.6,Complete
-ACT0072,ACC004,automate,19,18.5,Ready
-ACT0073,ACC025,escalate,20,14.6,In Review
-ACT0074,ACC023,monitor,28,8.0,In Review
-ACT0075,ACC029,escalate,22,15.9,In Review
-ACT0076,ACC014,monitor,37,6.7,Complete
-ACT0077,ACC011,monitor,14,16.4,Complete
-ACT0078,ACC027,validate,8,24.0,Complete
-ACT0079,ACC031,prioritize,41,5.8,Complete
-ACT0080,ACC032,validate,4,11.9,Ready
-ACT0081,ACC008,escalate,42,10.4,In Review
-ACT0082,ACC022,monitor,34,7.3,Proposed
-ACT0083,ACC032,monitor,9,23.9,In Review
-ACT0084,ACC028,automate,20,8.4,Ready
-ACT0085,ACC003,automate,20,16.9,Ready
-ACT0086,ACC018,validate,41,22.1,Complete
-ACT0087,ACC026,prioritize,33,10.2,Proposed
-ACT0088,ACC025,validate,23,20.3,Proposed
-ACT0089,ACC015,automate,28,17.2,Ready
-ACT0090,ACC023,monitor,10,3.6,Ready
-ACT0091,ACC006,validate,9,8.8,Proposed
-ACT0092,ACC018,monitor,41,17.0,Ready
-ACT0093,ACC032,automate,41,23.0,Complete
-ACT0094,ACC005,prioritize,32,2.3,Ready
-ACT0095,ACC018,automate,41,2.9,Complete
-ACT0096,ACC006,automate,19,9.3,Ready
-ACT0097,ACC032,prioritize,21,14.6,In Review
-ACT0098,ACC011,automate,15,2.9,Proposed
-ACT0099,ACC008,escalate,25,10.8,Ready
-ACT0100,ACC025,escalate,2,11.7,Ready
-ACT0101,ACC001,prioritize,11,14.1,In Review
-ACT0102,ACC009,automate,32,11.9,Proposed
-ACT0103,ACC028,escalate,19,8.8,Ready
-ACT0104,ACC007,automate,9,4.1,In Review
-ACT0105,ACC027,monitor,29,11.9,In Review
-ACT0106,ACC024,monitor,14,10.1,Complete
-ACT0107,ACC030,escalate,24,17.9,Complete
-ACT0108,ACC017,escalate,36,11.0,Proposed
-ACT0109,ACC003,automate,43,23.1,Ready
-ACT0110,ACC024,escalate,10,10.9,Ready
-ACT0111,ACC011,validate,3,16.5,Proposed
-ACT0112,ACC008,escalate,39,2.0,In Review
-ACT0113,ACC023,prioritize,4,3.7,Ready
-ACT0114,ACC004,monitor,34,10.7,Ready
-ACT0115,ACC019,escalate,15,7.9,In Review
-ACT0116,ACC011,escalate,44,6.8,In Review
-ACT0117,ACC017,monitor,11,23.9,Proposed
-ACT0118,ACC006,monitor,31,14.0,In Review
-ACT0119,ACC025,automate,10,23.7,Complete
-ACT0120,ACC007,escalate,40,5.6,In Review
-ACT0121,ACC020,validate,43,21.0,In Review
-ACT0122,ACC019,prioritize,5,20.4,Ready
-ACT0123,ACC018,automate,6,7.8,In Review
-ACT0124,ACC011,automate,16,20.7,Complete
-ACT0125,ACC026,prioritize,28,2.8,In Review
-ACT0126,ACC010,prioritize,27,13.8,In Review
-ACT0127,ACC001,automate,28,11.6,In Review
-ACT0128,ACC004,automate,5,3.5,Ready
-ACT0129,ACC004,automate,38,12.9,In Review
-ACT0130,ACC013,automate,25,3.6,Ready
-ACT0131,ACC029,automate,38,16.9,In Review
-ACT0132,ACC029,automate,18,19.4,Proposed
-ACT0133,ACC016,monitor,29,13.8,In Review
-ACT0134,ACC031,validate,39,16.6,In Review
-ACT0135,ACC011,validate,3,4.5,Ready
-ACT0136,ACC001,validate,9,6.6,Proposed
-ACT0137,ACC004,prioritize,11,21.4,Proposed
-ACT0138,ACC016,validate,13,13.6,Ready
-ACT0139,ACC025,escalate,26,14.5,Proposed
-ACT0140,ACC011,automate,34,17.6,Ready
-ACT0141,ACC025,validate,9,21.4,Ready
-ACT0142,ACC005,validate,12,12.0,In Review
-ACT0143,ACC006,prioritize,40,13.7,Ready
-ACT0144,ACC006,prioritize,33,9.6,Complete
-ACT0145,ACC012,monitor,17,10.9,In Review
-ACT0146,ACC009,validate,8,4.3,Proposed
-ACT0147,ACC016,monitor,7,6.8,Proposed
-ACT0148,ACC029,prioritize,18,18.0,Proposed
-ACT0149,ACC021,monitor,26,14.3,Complete
-ACT0150,ACC023,validate,25,10.6,Proposed
-ACT0151,ACC025,monitor,21,22.6,Ready
-ACT0152,ACC019,prioritize,42,7.9,Ready
-ACT0153,ACC004,validate,24,12.5,In Review
-ACT0154,ACC029,prioritize,9,16.7,Proposed
-ACT0155,ACC027,escalate,26,3.8,Ready
-ACT0156,ACC013,escalate,18,7.4,Ready
-ACT0157,ACC023,automate,22,15.4,Ready
-ACT0158,ACC027,escalate,27,17.6,In Review
-ACT0159,ACC007,escalate,24,11.2,Proposed
-ACT0160,ACC021,escalate,17,5.6,Ready
-ACT0161,ACC031,automate,30,11.3,In Review
-ACT0162,ACC014,automate,10,15.6,Ready
-ACT0163,ACC011,automate,17,14.4,Proposed
-ACT0164,ACC024,prioritize,43,8.9,Proposed
-ACT0165,ACC011,validate,7,10.9,Complete
-ACT0166,ACC016,prioritize,9,6.7,Ready
-ACT0167,ACC029,monitor,24,19.8,Ready
-ACT0168,ACC015,monitor,12,13.9,In Review
-ACT0169,ACC018,prioritize,35,17.0,Ready
-ACT0170,ACC031,escalate,33,12.7,In Review
-ACT0171,ACC025,escalate,23,15.2,Ready
-ACT0172,ACC032,monitor,4,15.2,Ready
-ACT0173,ACC018,automate,6,19.2,Complete
-ACT0174,ACC019,escalate,21,6.1,Complete
-ACT0175,ACC029,prioritize,24,11.9,Ready
-ACT0176,ACC008,prioritize,38,17.1,Complete
-ACT0177,ACC017,escalate,38,8.2,Complete
-ACT0178,ACC012,validate,22,16.0,Proposed
-ACT0179,ACC013,validate,3,2.8,Complete
-ACT0180,ACC028,automate,25,21.3,Proposed
+account_id,account_name,plan_tier,lifecycle_stage,recommended_owner,recommended_action,priority_score,arr,revenue_at_risk,effort_hours,reason
+ACC024,Account 024,Enterprise,Onboarding,Customer Ops,Accelerate onboarding milestone review,73.5,890000,503000,40,Onboarding account with 56.5 retention risk and 78.5 metric confidence
+ACC046,Account 046,Enterprise,Onboarding,Customer Ops,Accelerate onboarding milestone review,71.7,443000,237000,8,Onboarding account with 53.6 retention risk and 71.2 metric confidence
+ACC048,Account 048,Scale,Onboarding,Customer Ops,Accelerate onboarding milestone review,68.3,340000,192000,27,Onboarding account with 56.6 retention risk and 68.9 metric confidence
+ACC018,Account 018,Enterprise,Expansion,Sales Ops,Package expansion signal for Sales Ops,65.2,517000,272000,37,Expansion account with 52.7 retention risk and 97.1 metric confidence
+ACC021,Account 021,Enterprise,Renewal,RevOps,Validate renewal risk bridge with Finance,65.0,734000,269000,38,Renewal account with 36.7 retention risk and 72.7 metric confidence
+ACC025,Account 025,Scale,Expansion,Sales Ops,Package expansion signal for Sales Ops,63.4,415000,200000,19,Expansion account with 48.3 retention risk and 92.6 metric confidence
+ACC001,Account 001,Scale,Onboarding,Customer Ops,Accelerate onboarding milestone review,62.0,294000,184000,25,Onboarding account with 62.7 retention risk and 80.1 metric confidence
+ACC008,Account 008,Enterprise,Adoption,Customer Success,Improve adoption playbook coverage,61.1,545000,130000,8,Adoption account with 23.8 retention risk and 75.1 metric confidence
+ACC038,Account 038,Scale,Renewal,RevOps,Validate renewal risk bridge with Finance,58.2,415000,176000,40,Renewal account with 42.5 retention risk and 96.1 metric confidence
+ACC043,Account 043,Scale,Onboarding,Customer Ops,Accelerate onboarding milestone review,58.2,392000,163000,32,Onboarding account with 41.5 retention risk and 85.8 metric confidence
+ACC036,Account 036,Scale,Renewal,RevOps,Validate renewal risk bridge with Finance,58.1,389000,198000,38,Renewal account with 50.9 retention risk and 94.4 metric confidence
+ACC014,Account 014,Growth,Onboarding,Customer Ops,Accelerate onboarding milestone review,56.2,58000,50000,12,Onboarding account with 86.0 retention risk and 80.0 metric confidence
+ACC037,Account 037,Scale,Adoption,Customer Success,Improve adoption playbook coverage,54.3,394000,173000,36,Adoption account with 43.9 retention risk and 78.4 metric confidence
+ACC033,Account 033,Scale,Adoption,Customer Success,Improve adoption playbook coverage,50.3,305000,130000,39,Adoption account with 42.6 retention risk and 74.3 metric confidence
+ACC039,Account 039,Scale,Adoption,Customer Success,Improve adoption playbook coverage,50.1,191000,122000,28,Adoption account with 63.8 retention risk and 76.2 metric confidence
+ACC019,Account 019,Growth,Renewal,RevOps,Validate renewal risk bridge with Finance,49.4,128000,100000,38,Renewal account with 78.4 retention risk and 73.8 metric confidence
+ACC009,Account 009,Growth,Renewal,RevOps,Validate renewal risk bridge with Finance,49.3,116000,65000,12,Renewal account with 56.2 retention risk and 75.7 metric confidence
+ACC029,Account 029,Scale,Onboarding,Customer Ops,Accelerate onboarding milestone review,48.9,170000,90000,13,Onboarding account with 52.8 retention risk and 76.5 metric confidence
+ACC047,Account 047,Scale,Adoption,Customer Success,Improve adoption playbook coverage,47.2,213000,114000,30,Adoption account with 53.5 retention risk and 67.0 metric confidence
+ACC042,Account 042,Growth,Onboarding,Customer Ops,Accelerate onboarding milestone review,47.0,99000,54000,28,Onboarding account with 54.9 retention risk and 64.0 metric confidence
+ACC006,Account 006,Growth,Adoption,Customer Success,Improve adoption playbook coverage,46.9,139000,93000,38,Adoption account with 66.7 retention risk and 67.3 metric confidence
+ACC022,Account 022,Growth,Onboarding,Customer Ops,Accelerate onboarding milestone review,43.0,140000,72000,41,Onboarding account with 51.7 retention risk and 76.7 metric confidence
+ACC016,Account 016,Starter,Adoption,Customer Success,Improve adoption playbook coverage,42.0,46000,29000,19,Adoption account with 62.9 retention risk and 86.8 metric confidence
+ACC015,Account 015,Growth,Adoption,Customer Success,Improve adoption playbook coverage,41.4,119000,61000,9,Adoption account with 51.5 retention risk and 77.2 metric confidence
+ACC005,Account 005,Growth,Expansion,Sales Ops,Package expansion signal for Sales Ops,39.7,76000,48000,7,Expansion account with 63.5 retention risk and 87.1 metric confidence
+ACC026,Account 026,Starter,Adoption,Customer Success,Improve adoption playbook coverage,39.3,46000,27000,8,Adoption account with 58.4 retention risk and 82.0 metric confidence
+ACC004,Account 004,Starter,Adoption,Customer Success,Improve adoption playbook coverage,39.2,42000,24000,33,Adoption account with 57.4 retention risk and 66.2 metric confidence
+ACC034,Account 034,Growth,Adoption,Customer Success,Improve adoption playbook coverage,38.0,131000,45000,13,Adoption account with 34.0 retention risk and 68.5 metric confidence
+ACC023,Account 023,Growth,Onboarding,Customer Ops,Accelerate onboarding milestone review,37.5,101000,42000,12,Onboarding account with 41.4 retention risk and 64.2 metric confidence
+ACC028,Account 028,Scale,Expansion,Sales Ops,Package expansion signal for Sales Ops,36.3,243000,82000,31,Expansion account with 33.6 retention risk and 78.7 metric confidence
+ACC040,Account 040,Starter,Adoption,Customer Success,Improve adoption playbook coverage,36.1,54000,26000,11,Adoption account with 47.7 retention risk and 72.6 metric confidence
+ACC032,Account 032,Growth,Renewal,RevOps,Validate renewal risk bridge with Finance,35.7,143000,80000,41,Renewal account with 56.2 retention risk and 88.2 metric confidence
+ACC003,Account 003,Growth,Onboarding,Customer Ops,Accelerate onboarding milestone review,35.0,99000,39000,19,Onboarding account with 39.2 retention risk and 78.5 metric confidence
+ACC002,Account 002,Starter,Adoption,Customer Success,Improve adoption playbook coverage,34.9,20000,10000,18,Adoption account with 48.0 retention risk and 75.3 metric confidence
+ACC044,Account 044,Growth,Renewal,RevOps,Validate renewal risk bridge with Finance,33.7,62000,33000,8,Renewal account with 53.7 retention risk and 78.7 metric confidence
+ACC035,Account 035,Growth,Renewal,RevOps,Validate renewal risk bridge with Finance,33.1,136000,58000,32,Renewal account with 43.0 retention risk and 100 metric confidence
+ACC010,Account 010,Growth,Onboarding,Customer Ops,Accelerate onboarding milestone review,32.1,55000,22000,8,Onboarding account with 39.8 retention risk and 66.5 metric confidence
+ACC045,Account 045,Growth,Adoption,Customer Success,Improve adoption playbook coverage,32.0,70000,28000,28,Adoption account with 40.4 retention risk and 73.3 metric confidence
+ACC017,Account 017,Starter,Adoption,Customer Success,Improve adoption playbook coverage,31.7,27000,13000,15,Adoption account with 46.8 retention risk and 85.7 metric confidence
+ACC027,Account 027,Starter,Adoption,Customer Success,Improve adoption playbook coverage,26.8,21000,9000,23,Adoption account with 41.3 retention risk and 67.1 metric confidence
+ACC007,Account 007,Starter,Expansion,Sales Ops,Package expansion signal for Sales Ops,23.6,39000,17000,8,Expansion account with 42.6 retention risk and 99.2 metric confidence
+ACC031,Account 031,Starter,Renewal,RevOps,Validate renewal risk bridge with Finance,23.6,41000,14000,21,Renewal account with 33.5 retention risk and 82.5 metric confidence
+ACC011,Account 011,Starter,Renewal,RevOps,Validate renewal risk bridge with Finance,22.0,53000,21000,11,Renewal account with 39.7 retention risk and 85.2 metric confidence
+ACC030,Account 030,Growth,Expansion,Sales Ops,Package expansion signal for Sales Ops,21.4,92000,27000,30,Expansion account with 29.1 retention risk and 98.1 metric confidence
+ACC012,Account 012,Starter,Expansion,Sales Ops,Package expansion signal for Sales Ops,20.0,23000,10000,24,Expansion account with 44.5 retention risk and 87.5 metric confidence
+ACC020,Account 020,Starter,Adoption,Customer Success,Improve adoption playbook coverage,19.3,53000,20000,39,Adoption account with 37.5 retention risk and 87.5 metric confidence
+ACC013,Account 013,Growth,Renewal,RevOps,Validate renewal risk bridge with Finance,18.3,83000,22000,32,Renewal account with 26.6 retention risk and 77.1 metric confidence
+ACC041,Account 041,Starter,Adoption,Customer Success,Improve adoption playbook coverage,17.9,44000,11000,39,Adoption account with 24.7 retention risk and 55.7 metric confidence

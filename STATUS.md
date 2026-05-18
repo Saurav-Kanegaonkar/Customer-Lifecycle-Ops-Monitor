@@ -1,7 +1,11 @@
 # Status
 
-- Project: Customer Lifecycle Ops Monitor
-- GitHub: https://github.com/Saurav-Kanegaonkar/Customer-Lifecycle-Ops-Monitor
-- Status: complete
-- Resume Link Ready: Yes
-- Last update: Reworked to locked pipeline standards with multiple data sources, analysis artifacts, scripts, screenshot, and distinct artifact framing.
+Portfolio artifact upgraded.
+
+## Current build
+
+- Three app surfaces: Lifecycle Health, Metrics Certification, and Action Queue.
+- Synthetic lifecycle operating mart generated with a fixed seed.
+- README includes three screenshots with captions.
+- SQL checks cover lifecycle health, metric certification, data quality backlog, and weekly action queue.
+- Public documentation uses company-domain language and does not name the target company.
